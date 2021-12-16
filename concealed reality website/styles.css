@@ -1,0 +1,46 @@
+* {
+    font-family: Calibri;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    /*background-color: rgb(3, 3, 67);*/
+    background-color: black;
+}
+
+
+/* MOBILE VERSION */
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    position: relative;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.active img {
+    height: 35px;
+
+}
